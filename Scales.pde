@@ -8,7 +8,7 @@ void draw() {
   for(int x = 0; x < 400; x+=30)
     scales(x,y);
 }
-void scale(int x, int y) {
+void scales(int x, int y) {
   for(int i = 0; i < 256; i+=30){
     fill(64-x/2, 224-x/2, 208-x/2.2);
   }
